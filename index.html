@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="dashboard">
+                <img src="images/dashboard.svg" alt="dashboard" width="45">
+                <div class="dashboardText">Dashboard</div>
+            </div>
+            <div class="socialbtns">
+                <ul>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/home.svg" alt="home">
+                            <div class="btnText">Home</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/person_FILL0_wght400_GRAD0_opsz24.svg" alt="profile">
+                            <div class="btnText">Profile</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/comment_FILL0_wght400_GRAD0_opsz24.svg" alt="messages">
+                            <div class="btnText">Messages</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/history_FILL0_wght400_GRAD0_opsz24.svg" alt="history">
+                            <div class="btnText">History</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/task_FILL0_wght400_GRAD0_opsz24.svg" alt="tasks">
+                            <div class="btnText">Tasks</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/account-group.svg" alt="Communities" width="24">
+                            <div class="btnText">Communities</div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="helpbtns">
+                <ul>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/settings_FILL0_wght400_GRAD0_opsz24.svg" alt="settings">
+                            <div class="btnText">Settings</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/contact_support_FILL0_wght400_GRAD0_opsz24.svg" alt="support">
+                            <div class="btnText">Support</div>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dashboard">
+                            <img src="images/security_FILL0_wght400_GRAD0_opsz24.svg" alt="privacy">
+                            <div class="btnText">Privacy</div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header">
+            <div class="topBar">
+                <div class="searchBar">
+                    <img src="images/search_FILL0_wght400_GRAD0_opsz24.svg" alt="searchIcon">
+                    <input type="text" id="textInput">
+                </div>
+                <div class="userInfo">
+                        <img src="images/notifications_active_FILL0_wght400_GRAD0_opsz24.svg" alt="notification">
+                        <img src="images/profile1.webp" alt="profilePic" width="60" class="profilePicSmall">
+                        <div class="userName">Vld Ant</div>
+                </div>
+            </div>
+            <div class="bottomBar">
+                <div class="profile">
+                    <img src="images/profile1.webp" alt="profilePic" width="90">
+                    <div class="userProfile">
+                        <div class="userGreet">Hi there,</div>
+                        <div class="userAt">Vld Ant (@vld)</div>
+                    </div>
+                </div>
+                <div class="profileButtons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="projects">
+                <p>Your Projects</p>
+                <div class="projectTiles">
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis a cras semper auctor neque vitae. Sagittis id consectetur purus ut faucibus. Tincidunt dui ut ornare lectus sit amet est. Amet dictum sit amet justo donec enim diam vulputate ut. Nibh cras pulvinar mattis nunc sed blandit libero volutpat sed.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                    </div>
+                    </div>
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">Adipiscing enim eu turpis egestas. Non quam lacus suspendisse faucibus interdum posuere lorem. Enim nulla aliquet porttitor lacus luctus.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                        </div>
+                    </div>
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                        </div>
+                    </div>
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                        </div>
+                    </div>
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                        </div>
+                    </div>
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                        </div>
+                    </div>
+                    <div class="projectContainer">
+                        <div class="projectText">Super Cool Project</div>
+                        <div class="projectDescript">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.</div>
+                        <div class="projectBtn">
+                            <button><img src="images/star-plus-outline.svg" alt="favorite" width="20"></button>
+                            <button><img src="images/eye-plus-outline.svg" alt="eyePlus" width="20"></button>
+                            <button><img src="images/share_FILL0_wght400_GRAD0_opsz24.svg" alt="share" width="20"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements"> 
+                <p>Announcements</p>
+                <div class="annTiles">
+                    <div class="annContainer">
+                        <p class="title">Site Maintenance</p>
+                        <p class="text">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra.</p>
+                    </div>
+                    <div class="annContainer">
+                        <p class="title">Happy Black Hole Day</p>
+                        <p class="text">At lectus urna duis convallis convallis tellus id. Id diam maecenas ultricies mi eget mauris pharetra. We're going to celebrate this one from the inside</p>
+                    </div>
+                    <div class="annContainer">
+                        <p class="title">Updated Privacy Policy</p>
+                        <p class="text">We've collected enough data about you anyway. Id diam maecenas ultricies mi eget mauris pharetra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <p>Trending</p>
+                <div class="trendTiles">
+                    <div class="trendContainer">
+                        <img src="images/trend1.webp" alt="trending person avatar" width="60">
+                        <div class="trendProfile">
+                            <p class="trendUser">@ayumi</p>
+                            <p class="userStatus">Data Collector</p>
+                        </div>
+                    </div>
+                    <div class="trendContainer">
+                        <img src="images/trend2.webp" alt="trending person avatar" width="60">
+                        <div class="trendProfile">
+                            <p class="trendUser">@cata06</p>
+                            <p class="userStatus">TradeTorX DBA</p>
+                        </div>
+                    </div>
+                    <div class="trendContainer">
+                        <img src="images/trend3.webp" alt="trending person avatar" width="60">
+                        <div class="trendProfile">
+                            <p class="trendUser">@chinchillix</p>
+                            <p class="userStatus">CheesET Administrator</p>
+                        </div>
+                    </div>
+                    <div class="trendContainer">
+                        <img src="images/trend4.webp" alt="trending person avatar" width="60">
+                        <div class="trendProfile">
+                            <p class="trendUser">@chetu</p>
+                            <p class="userStatus">Wire Tehnician</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    font-family: "Poppins", sans-serif;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+.sidebar {
+    background-color: #86efac;
+    grid-row: 1 / 3;
+    display: grid;
+    padding: 20px;
+    grid-template-rows: 100px 1fr 2fr;
+}
+
+.sidebar li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.dashboard {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    align-self: start;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.sidebar button {
+    background-color: #86efac;
+    border: 2px solid #86efac;
+}
+
+.sidebar button:hover {
+    color: #57996f;
+}
+
+button.dashboard {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.header {
+    display: grid;
+    padding: 30px;
+    background-color: white;
+}
+
+.topBar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    align-items: baseline;
+}
+
+.searchBar {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 5px;
+    grid-template-rows: 25px;
+}
+
+.searchBar > input {
+    background-color: #d1d5db;
+    border: none;
+    border-radius: 30px;
+}
+
+.userInfo {
+    display: grid;
+    grid-template-columns: min-content min-content 1fr;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+}
+
+.userInfo > img {
+    border-radius: 30px;
+}
+
+.bottomBar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.userProfile .userGreet {
+    font-size: 15px;
+}
+
+.profile > img {
+    border-radius: 50px;
+}
+
+.profileButtons {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.profileButtons > button {
+    height: 45px;
+    border: none;
+    background-color: #86efac;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 45px;
+}
+
+.profileButtons > button:hover {
+    background-color: #57996f;
+}
+
+.content {
+    background-color: #d1d5db;
+    display: grid;
+    grid-row: 2 / 4;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    gap: 15px;
+}
+
+.projects {
+    font-weight: 600;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+
+.projectTiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 15px;
+    overflow: auto;
+    
+}
+
+.projectContainer {
+    background-color: white;
+    display: grid;
+    border-left: 10px solid #2d8099;
+    border-radius: 10px;
+    padding: 40px;
+    grid-template-rows: min-content 1fr min-content;
+    
+}
+
+.projectDescript {
+    font-weight: 300;
+}
+
+.projectBtn {
+    justify-self: end;
+    padding: 20px;
+}
+
+.projectBtn > button {
+    border: 2px solid white;
+    background-color: white;
+    
+}
+
+.projectBtn > button:hover {
+    border: 2px solid #2d8099; 
+    border-radius: 15px;
+}
+
+.projectBtn > button > img {
+    width: 30px;
+}
+
+
+.announcements {
+    font-weight: 600;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.annTiles {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.annContainer {
+    border-bottom: 1px solid gray;
+    margin: 16px;
+}
+
+.annContainer:last-child {
+    border-bottom: none
+}
+
+.annContainer > .title {
+    
+}
+
+.annContainer > .text {
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #8a8a8a;
+}
+
+.annContainer > p {
+    margin: 0;
+}
+
+.trending {
+    font-weight: 600;
+    grid-column: 2 / 3;
+}
+
+.trendTiles {
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.trendContainer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: min-content 1fr;
+    padding: 20px;
+    gap: 15px;
+}
+
+.trendProfile p {
+    margin: 0;
+}
+
+.trendContainer > img {
+    border-radius: 30px;
+}
+
+.userStatus {
+
+}
